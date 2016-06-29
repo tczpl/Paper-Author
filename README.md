@@ -1,7 +1,7 @@
-Paper Author：基于微软学术API和Hadoop的统计论文作者频率应用<br>
+Paper Author：基于微软学术API和Hadoop的统计论文作者频率应用（云计算概论课程项目）<br>
 <br>
 js源代码:getPaper.js<br>
-java源代码：PaperAuthor.java<br>
+java源代码：PaperAuthor.java（以所给Lab-2C-InvertedIndex的词频统计为基础）<br>
 JAR：PaperAuthor.jar<br>
 已抓取的输入数据：authors/<br>
 <br>
