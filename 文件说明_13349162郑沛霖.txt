@@ -1,0 +1,16 @@
+吴老师您好，以下是我各个附件的说明：
+
+js源代码:getPaper.js
+java源代码：PaperAuthor.java
+JAR：PaperAuthor.jar
+已抓取的输入数据：authors/
+
+步骤：
+1.使用nodejs getPaper.js 获取微软学术搜索API数据并按会议期刊年份存储到authors
+   ps：修改js文件中的CorJ,CJname,Ybegin,Yend来定义会议或期刊及年份，如果使用已抓取的数据则该步骤可跳过
+2.将authors/添加到hadoop的输入
+3.hadoop中调用PaperAuthor.jar 输入authors
+4.输入想要统计的会议或期刊简称、年份区间
+5.cat输出即可查看各个作者的发表频率统计
+
+其他内容详见设计文档及源代码
